@@ -1,0 +1,70 @@
+//<BUTTONS (a.btn+tab)>
+// Снипет (HTML): btn
+
+.button {
+	display: inline-flex;
+	padding: 0px 0px;
+	@media (any-hover: hover) {
+		&:hover {
+		}
+	}
+	&._fw {
+		width: 100%;
+	}
+}
+
+
+
+// .button {
+	
+//   padding:rem(12) rem(50);
+// 	@media (any-hover: hover) {
+// 		&:hover {
+//       background-color:#fff;
+//       color:$mainYellow ;
+//       transition: all 0.3s ease 0s;
+// 		}
+// 	}
+// 	&._fw {
+// 		width: 100%;
+// 	}
+
+
+// background-color: $mainYellow;
+// font-weight: 700;
+// font-size: rem(16);
+// line-height:169%;
+// text-align: center;
+// color: #FFFFFF;
+// }
+
+// .button {	
+//   padding:rem(17) rem(60);
+// 	@media (any-hover: hover) {
+// 		&:hover {
+//       opacity:0.8;      
+//       transition: all 0.3s ease 0s;
+// 		}
+// 	}
+// 	&._fw {
+// 		width: 100%;
+// 	}
+
+// background-color: inherit;
+// font-weight: 500;
+// line-height:186%;
+// color: $mainColor;
+// border-radius: 20px;
+// border: 1px solid #000;
+// display: flex;
+// gap:10px;
+// align-items: center;
+// &::after{
+//   @extend %ic;
+//   content: "\e901";
+//   font-size: rem(10);
+//   color: $mainColor;
+// }
+
+// }
+
